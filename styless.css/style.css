@@ -1,8 +1,11 @@
 :root {
-    --primery-fon:#ffff;  
-    --color-primary:#111827;
-    --color-button:#885FFB;
-    --color-hover:#06632b;
+    --primery-text:rgb(23, 11, 11)
+    ;  
+    --color-primary:#f8f8ff;
+    --color-button:#8fbc8f;
+    --color-hover:#ccefda;
+    --color-arctic:#006400;    ;
+    --fon-back:radial-gradient(632.95% 141.42% at 100.00% 100.00%, #e6e6fa 0%, #ffff 100%);
   
     --size24:24px;
     --size12:12px;
@@ -22,7 +25,7 @@
     max-width: 1150px;
     width:100%;
     font-family: "Roboto";
-    color: var(--primery-fon);
+    color: var(--primery-text);
     font-weight: 400;
     font-size: 14px;
     
@@ -56,7 +59,8 @@
     margin-right: 200px; 
     width: 300px;
     text-decoration: none;
-    color: antiquewhite;
+    color: var(--color-arctic);
+    font-weight: 700;
    
     
   }
@@ -67,14 +71,14 @@
   
   .lang{
     font-size: 17px;
-    color: var(--primery-fon);
+    color: var(--);
     background-color: var(--color-button);
     width: 100px;
     height: 40px;
     padding: 8px 12px;
   
     border-radius: 10px;
-    justify-items: center;
+    justify-items: center;   
     
     
     
@@ -85,7 +89,7 @@
     transform: scale(1, 1);
     transition: transform 2s ease;
     transition-property:background-color,font-size;
-    transition-duration: 2s;
+    transition-duration: 1s;
   
   }
   
@@ -100,7 +104,7 @@
    .nav-link {
     font-size: 16px;
     font-weight: 400;
-    color: var(--primery-fon);
+    color: var(--primery-text);
     text-decoration: none;
   
     transition-property: color,text-decoration;
@@ -157,7 +161,7 @@
     gap:20px;
     padding: 32px;
     border-radius: 24px;
-    background: radial-gradient(632.95% 141.42% at 100.00% 100.00%, rgba(17, 24, 39, 0.00) 0%, rgba(78, 63, 146, 0.60) 100%);
+    background: radial-gradient(632.95% 141.42% at 100.00% 100.00%, rgba(2, 116, 34, 0.416) 0%, #ffff 100%);
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
    
   
@@ -166,13 +170,13 @@
    
   
    .hero-title{
-    color: var(--primery-fon);
+    color: var(--primery-text);
     font-size: 36px;
     font-weight: 700;
    }
   
    .hero-description{
-    color: var(--primery-fon);
+    color: var(--primery-text);
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
@@ -187,7 +191,7 @@
     text-decoration: none;
     width: 150px;
     height: 40px;  
-    color: var(--primery-fon);
+    color: var(--primery-text);
     background-color: var(--color-button);
     font-size: 16px;
     font-weight: 700;
@@ -206,10 +210,10 @@
   
    .about{
     border-radius: 24px;
-    background: rgba(42, 49, 65, 0.44);
+    background: var(--fon-back);
     backdrop-filter: blur(25px);
     padding: 32PX;
-    color: var(--primery-fon);
+    color: var(--primery-text);
    }
   
    .about_title{
@@ -228,7 +232,7 @@
 
    .about>a{
     text-decoration: none;
-    color: antiquewhite;
+    color: var(--color-arctic);
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
@@ -269,7 +273,7 @@
    }
   
    .m_button{ 
-    color: var(--primery-fon);
+    color: var(--primery-text);
     width: 100px;
     height: 40px;
     border-radius: 10px;
@@ -318,7 +322,7 @@
     font-size: 14px;  
     font-weight: 700;
   
-    color: var(--primery-fon);
+    color: var(--primery-text);
     background-color: var(--color-button);
   
     padding: 8px 16px;
@@ -341,7 +345,7 @@
    }
   
    .card_new{
-    color: var(--primery-fon);
+    color: var(--);
     border-radius: 8px;
     background: rgba(3, 135, 14, 0.5);
     width:90px;
@@ -373,7 +377,7 @@
   }
   
   .footer_link{
-    color: var(--primery-fon);
+    color: var(--primery-text);
     text-decoration: none;
     font-size: 16px;
     transition-property: color,text-decoration;
@@ -387,7 +391,7 @@
   
   footer>p {
     font-size: 16px;
-    color: #9CA3AF
+   
   }
   
   
